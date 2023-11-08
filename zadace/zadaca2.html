@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="ana jazvic">
+    <meta name="opis" content="advent u Beču 2023.">
+    <title>Advent u Beču 2023.</title>
+</head>
+<body>
+    <h1>Advent u Beču 2023.</h1>
+    <h3>Datumi polaska</h3>
+    <table border="1">
+        <tbody>
+            <tr>
+              <th colspan="2">Prosinac 2023.</th>
+            </tr>
+            <tr>
+                <th>Datum</th>
+                <th>Cijena</th>
+            </tr>
+            <tr>
+                <td>02.12.2023.</td>
+                <td rowspan="3">106 eura</td>
+            </tr>
+                <td>09.12.2023.</td>
+            </tr>
+            <tr>
+                <td>11.12.2023</td>
+            </tr>
+            <tr>
+                <td rowspan="2">16.12.2023.</td>
+                <td>106 eura</td>
+            </tr>
+            <tr></tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <p></p>
+        <p></p>
+          <label for="Ime">Ime i prezime:</label>
+          <input id="Ime" type="text" size="15" maxlength="15" required>
+          <br>
+          <br>
+          <label for="pass">Vaša lozinka</label>
+          <input type="password" name="password" id="pass" size="15" required>
+        </p>
+        <p>Način prijave:</p>
+        <input type="radio" name="prijava" id="admin" value="admin">
+        <label for="admin">Admin</label>
+        <br>
+        <input type="radio" name="prijava" id="guest" value="guest">
+        <label for="guest">Guest</label>
+        <p>Prihvaćate li uvjete?</p>
+        <input type="checkbox" name="language" id="da">
+        <label for="da">Prihvaćam</label>
+        <p></p>
+        <input type="submit" value="Pošalji">
+        <input type="reset" value="Poništi">
+        </p>
+        <hr>
+        <p></p>
+        <h4>Videozapis</h4>
+        <video controls>
+            <source src="slike/puppy.mp4" type="video/mp4">
+        </video>
+        <p></p>
+        <h4>Audiozapis</h4>
+        <audio controls>
+            <source src="slike/test-audio.ogg" type="audio/mp3">
+        </audio>
+</body>
+</html>
