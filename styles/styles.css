@@ -1,0 +1,35 @@
+h3{
+    color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h6{
+    font-size: medium;
+    text-align: center;
+}
+
+html{
+    font-size: 12px;
+}
+
+body{
+    background-color: rgb(230, 230, 155);
+}
+
+h1{
+    color: #164863;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraf1{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#paragraf2{
+    color: blueviolet;
+    font-size: 2rem;
+    font-weight: bolder;
+}
